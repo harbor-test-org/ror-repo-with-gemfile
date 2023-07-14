@@ -1,0 +1,16 @@
+{
+  "name": "ackama-rails-template",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:ackama/rails-template.git",
+  "scripts": {
+    "format-check": "prettier --check './**/*.{css,scss,json,md,js,ts,tsx,jsx}'",
+    "format-fix": "prettier --write './**/*.{css,scss,json,md,js,ts,tsx,jsx}'"
+  },
+  "prettier": "prettier-config-ackama",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-config-ackama": "^1.1.0",
+    "prettier-plugin-packagejson": "^2.3.0"
+  }
+}
