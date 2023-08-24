@@ -7,5 +7,5 @@ source "https://rubygems.org"
 
 gem "rubocop", "~> 1.31"
 gem "rubocop-performance", "~> 1.14"
-gem "rubocop-rails", "~> 2.15"
+gem "rubocop-rails", "~> 2.16", ">= 2.16.0"
 gem "rubocop-rspec", "~> 2.12"
